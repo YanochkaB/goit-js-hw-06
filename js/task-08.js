@@ -28,6 +28,6 @@ function formSubmit(event) {
         password: password.value,
     }
 
-    console.log(`email: ${email.value}, password: ${password.value}`)
+    console.log(user)
     event.currentTarget.reset()
 }
